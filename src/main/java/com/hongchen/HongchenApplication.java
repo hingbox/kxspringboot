@@ -69,6 +69,7 @@ public class HongchenApplication extends SpringBootServletInitializer {
 		return builder.sources(HongchenApplication.class);
 	}*/
 
+	//测试
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application){
 		return application.sources((HongchenApplication.class));
