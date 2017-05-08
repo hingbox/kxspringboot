@@ -1,30 +1,19 @@
 package com.hongchen.controller;
 
-import com.alibaba.fastjson.JSONObject;
 import com.hongchen.constants.Constants;
 import com.hongchen.controller.base.ResponseBase;
-import com.hongchen.entity.admin.AdminPermission;
 import com.hongchen.entity.admin.AdminRole;
 import com.hongchen.entity.admin.AdminUser;
 import com.hongchen.service.admin.IAdminRoleService;
 import com.hongchen.service.admin.IAdminUserService;
-import com.hongchen.shiro.MyShiroRealm;
-import com.hongchen.shiro.StatelessAuthenticationToken;
 import com.hongchen.util.AssertUtil;
-import com.hongchen.util.Captcha;
-import com.hongchen.util.GifCaptcha;
 import com.hongchen.util.redis.RedisUtil;
 import com.hongchen.vo.admin.UserCredentials;
 import org.apache.shiro.SecurityUtils;
-import org.apache.shiro.authc.ExcessiveAttemptsException;
-import org.apache.shiro.authc.IncorrectCredentialsException;
-import org.apache.shiro.authc.UsernamePasswordToken;
-import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.Subject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
