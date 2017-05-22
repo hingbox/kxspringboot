@@ -1,8 +1,7 @@
 package com.hongchen.controller.quartz;
+
 import com.baomidou.mybatisplus.plugins.Page;
 import com.hongchen.controller.base.ResponseBase;
-import com.hongchen.entity.admin.AdminRole;
-import com.hongchen.entity.admin.AdminUser;
 import com.hongchen.entity.quartz.QuartzSchedulejob;
 import com.hongchen.entity.quartz.QuartzSchedulejobGroup;
 import com.hongchen.service.quartz.IQuartzSchedulejobGroupService;

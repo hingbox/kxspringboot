@@ -1,6 +1,5 @@
 package com.hongchen.shiro;
 
-import com.hongchen.configurer.ShiroConfig;
 import com.hongchen.entity.admin.AdminPermission;
 import com.hongchen.entity.admin.AdminRole;
 import com.hongchen.entity.admin.AdminUser;
@@ -8,7 +7,6 @@ import com.hongchen.exception.HongchenException;
 import com.hongchen.service.admin.IAdminPermissionService;
 import com.hongchen.service.admin.IAdminRoleService;
 import com.hongchen.service.admin.IAdminUserService;
-import com.hongchen.util.HmacSHA256Utils;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.realm.AuthorizingRealm;

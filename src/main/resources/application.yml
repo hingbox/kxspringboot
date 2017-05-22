@@ -33,7 +33,7 @@ spring:
  # 合并多个DruidDataSource的监控数据
  #spring.datasource.useGlobalDataSourceStat=true
 server:
-  port: 8080
+  port: 8082
   #context-path: /hongchen
 
 logging:
